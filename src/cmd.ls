@@ -1,7 +1,7 @@
 ``#!/usr/bin/env node``
 
 require! liftoff
-{build, serve} = require './index'
+{build, serve, tasks} = require './index'
 
 Cobb = new liftoff name: \cobb
 env <- Cobb.launch
@@ -9,6 +9,7 @@ env <- Cobb.launch
 if env.config-path?
 	process.chdir env.config-base
 	spec = require that
+	throw new SyntaxError "Malformed cobbfile" if spec not instanceof tasks
 
 	[cmd, ...args] = env.argv._
 
