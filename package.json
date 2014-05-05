@@ -1,0 +1,41 @@
+{
+  "name": "cobb",
+  "version": "0.2.0",
+  "description": "cobble your files together",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/quarterto/Cobb.git"
+  },
+  "keywords": [
+    "build",
+    "inception",
+    "cobble",
+    "dependencies",
+    "streams",
+    "gulp",
+    "grunt",
+    "make"
+  ],
+  "author": "Matt Brennan <mwrbrennan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarterto/Cobb/issues"
+  },
+  "homepage": "https://github.com/quarterto/Cobb",
+  "dependencies": {
+    "eames": "^0.1.0",
+    "miles": "^0.1.0",
+    "saito": "^0.1.0",
+    "liftoff": "^0.9.8"
+  },
+  "devDependencies": {
+    "make-livescript": "0.0.0",
+    "LiveScript": "^1.2.0",
+    "mocha": "^1.18.2",
+    "karma-sinon-expect": "^0.1.4"
+  }
+}
