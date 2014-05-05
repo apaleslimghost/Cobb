@@ -4,7 +4,11 @@
   "description": "cobble your files together",
   "main": "lib",
   "scripts": {
+    "prepublish": "npm test",
     "test": "make test"
+  },
+  "bin": {
+    "cobb": "lib/cmd.js",
   },
   "repository": {
     "type": "git",
