@@ -8,7 +8,7 @@
     "test": "make test"
   },
   "bin": {
-    "cobb": "lib/cmd.js",
+    "cobb": "lib/cmd.js"
   },
   "repository": {
     "type": "git",
