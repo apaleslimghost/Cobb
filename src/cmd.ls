@@ -1,6 +1,8 @@
+``#!/usr/bin/env node``
+
 require! liftoff
 
-Cobb = liftoff name: \cobb
+Cobb = new liftoff name: \cobb
 env <- Cobb.launch
 
 if env.config-path?

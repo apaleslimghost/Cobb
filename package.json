@@ -4,7 +4,7 @@
   "description": "cobble your files together",
   "main": "lib",
   "scripts": {
-    "prepublish": "npm test",
+    "prepublish": "make",
     "test": "make test"
   },
   "bin": {
