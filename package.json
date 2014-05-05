@@ -40,6 +40,7 @@
     "make-livescript": "0.0.0",
     "LiveScript": "^1.2.0",
     "mocha": "^1.18.2",
-    "karma-sinon-expect": "^0.1.4"
+    "karma-sinon-expect": "^0.1.4",
+    "from": "^0.1.3"
   }
 }
