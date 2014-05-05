@@ -2,7 +2,7 @@
   "name": "cobb",
   "version": "0.2.0",
   "description": "cobble your files together",
-  "main": "index.js",
+  "main": "lib",
   "scripts": {
     "test": "make test"
   },
