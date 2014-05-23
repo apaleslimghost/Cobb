@@ -14,9 +14,9 @@ if env.config-path?
 	[cmd, ...args] = env.argv._
 
 	if cmd is \serve
-		serve spec .listen env.argv.port ? 8080
+		serve spec~task .listen env.argv.port ? 8080
 	else
-		build spec, env.argv._
+		build spec~task, env.argv._
 
 else
 	console.error "No cobbfile found."

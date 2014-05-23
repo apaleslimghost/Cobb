@@ -31,9 +31,9 @@
   },
   "homepage": "https://github.com/quarterto/Cobb",
   "dependencies": {
-    "eames": "^0.1.0",
-    "miles": "^0.1.0",
-    "saito": "^0.1.0",
+    "eames": "^0.2.0",
+    "miles": "^0.3.0",
+    "saito": "^0.2.0",
     "liftoff": "^0.9.8"
   },
   "devDependencies": {
