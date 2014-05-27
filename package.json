@@ -1,6 +1,6 @@
 {
   "name": "cobb",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "cobble your files together",
   "main": "lib",
   "scripts": {
