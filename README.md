@@ -45,6 +45,6 @@ Cobb is little more than a thin CLI wrapper around Saito, Eames and Miles. Its A
 
 Licence
 -------
-&copy; MMXIV Matt Brennan
+MIT. &copy; MMXIV Matt Brennan
 
 ![](http://2011.beercamp.com/img/totem01.gif)
