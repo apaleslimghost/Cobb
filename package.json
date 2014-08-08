@@ -33,7 +33,7 @@
   "dependencies": {
     "eames": "^0.2.0",
     "interpret": "^0.3.5",
-    "liftoff": "^0.9.8",
+    "liftoff": "^0.12.0",
     "miles": "^0.3.0",
     "saito": "^0.2.0"
   },
