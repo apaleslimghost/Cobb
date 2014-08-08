@@ -2,8 +2,9 @@
 
 require! liftoff
 {build, serve, tasks} = require './index'
+{js-variants} = require \interpret
 
-Cobb = new liftoff name: \cobb
+Cobb = new liftoff name: \cobb extensions: js-variants
 env <- Cobb.launch
 
 if env.config-path?
