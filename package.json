@@ -35,6 +35,7 @@
     "interpret": "^0.3.5",
     "liftoff": "^0.12.0",
     "miles": "^0.3.0",
+    "optionator": "^0.4.0",
     "saito": "^0.2.0"
   },
   "devDependencies": {
